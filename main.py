@@ -2,6 +2,9 @@ import os
 import schedule
 import time
 
+# pi-hole commands
+# https://docs.pi-hole.net/core/pihole-command/
+
 def enable_domain(domain):
     os.system(f"pihole --whitelist {domain}")
 
